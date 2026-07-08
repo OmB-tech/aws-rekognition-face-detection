@@ -8,7 +8,7 @@ from PIL import Image
 # -----------------------------
 BUCKET_NAME = os.environ["S3_BUCKET"]
 REGION = os.environ["AWS_DEFAULT_REGION"]
-IMAGE_FILE = "employee.jpg"
+IMAGE_FILE = "e1.jpg"
 
 print("=" * 50)
 print("Bucket :", BUCKET_NAME)
