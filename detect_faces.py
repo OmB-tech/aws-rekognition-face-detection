@@ -7,7 +7,8 @@ import os
 # -----------------------------
 BUCKET_NAME = os.environ["S3_BUCKET"]
 IMAGE_FILE = "employee.jpg"
-
+print("Bucket:", BUCKET_NAME)
+print("Region:", os.environ.get("AWS_DEFAULT_REGION"))
 # -----------------------------
 # AWS Clients
 # -----------------------------
