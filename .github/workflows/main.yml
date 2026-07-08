@@ -2,8 +2,8 @@ name: Face Detection Pipeline
 
 on:
   push:
-    paths:
-      - "employee.jpg"
+    branches:
+      - main
 
 jobs:
   detect-faces:
